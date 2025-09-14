@@ -95,6 +95,37 @@ Top-5 Prediction Results:
 5.     airplane: 0.0000 (0.00%)
 ```
 
+```
+Using device: cuda:0
+GPU name: NVIDIA A100 80GB PCIe
+GPU memory: 79.15 GB
+
+VGG16 CIFAR-10 Model Inference Test
+============================================================
+Model loading time:          0.129019 seconds
+Image loading time:          0.121389 seconds
+Forward propagation time:    0.003776 seconds
+Backpropagation time (avg):  0.012855 seconds
+Pure inference time:         0.003776 seconds
+Total time:                  0.254184 seconds
+
+🔥 VGG16 single sample backpropagation time: 0.012855 seconds (Batch Size=1)
+
+Prediction Results:
+Predicted class: cat (index: 3)
+Confidence: 0.9864 (98.64%)
+Prediction correct: Yes
+
+Top-5 Prediction Results:
+1.          cat: 0.9864 (98.64%)
+2.          dog: 0.0134 (1.34%)
+3.         bird: 0.0001 (0.01%)
+4.         ship: 0.0000 (0.00%)
+5.     airplane: 0.0000 (0.00%)
+```
+
+
+
 ## 🎯 CIFAR-10 Classes
 
 The model recognizes 10 classes:
